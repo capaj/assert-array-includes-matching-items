@@ -1,6 +1,6 @@
 # assert-array-includes-matching-items
 
-just a helpful assert which I was lacking in jest/chai/jasmine
+just a helpful assert with nice output which I was lacking in jest/chai/jasmine
 
 ```javascript
 import assertArrayIncludesMatchingItems from 'assert-array-includes-matching-items'
