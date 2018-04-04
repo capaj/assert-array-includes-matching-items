@@ -9,4 +9,5 @@ assertArrayIncludesMatchingItems(someArray, arrayOfItemsToFind)
 ```
 
 if the assertion fails, this is logged:
-![output](output.jpg?raw=true 'When assertion fails')
+
+![output](output.png?raw=true 'When assertion fails')
