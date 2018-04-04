@@ -1,0 +1,37 @@
+{
+  "name": "assert-array-includes-matching-items",
+  "version": "0.9.0",
+  "description":
+    "an assert to make sure an array contains matching unordered items",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "ava spec.js",
+    "prepublish": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url":
+      "git+https://github.com/capaj/assert-array-includes-matching-items.git"
+  },
+  "keywords": ["assert", "matching", "array", "unordered"],
+  "author": "capajj@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url":
+      "https://github.com/capaj/assert-array-includes-matching-items/issues"
+  },
+  "homepage":
+    "https://github.com/capaj/assert-array-includes-matching-items#readme",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "cli-highlight": "^1.2.3",
+    "fast-safe-stringify": "^2.0.3",
+    "lodash.find": "^4.6.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0"
+  }
+}
